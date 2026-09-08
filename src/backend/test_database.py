@@ -9,7 +9,7 @@ class InitialActivitiesTest(unittest.TestCase):
 
         self.assertEqual(
             activity["description"],
-            "Explore the fantastic stories of the most interesting characters from Japanese Manga (graphic novels).",
+            "Dive into action-packed worlds, unforgettable heroes, and epic adventures inspired by Japanese Manga.",
         )
         self.assertEqual(activity["schedule"], "Tuesdays, 7:00 PM")
         self.assertEqual(activity["schedule_details"]["days"], ["Tuesday"])
